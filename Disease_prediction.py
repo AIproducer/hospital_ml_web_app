@@ -13,11 +13,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/M_ISHFAQ/Machine_Learning_Projects/Multi_Disease_Prediction_Web_App/Diabetes_Disease.sav', 'rb'))
+diabetes_model = pickle.load(open('Diabetes_Disease.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/M_ISHFAQ/Machine_Learning_Projects/Multi_Disease_Prediction_Web_App/DT_Heart_Disease_trained_model.sav','rb'))
+heart_disease_model = pickle.load(open('DT_Heart_Disease_trained_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/M_ISHFAQ/Machine_Learning_Projects/Multi_Disease_Prediction_Web_App/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav','rb'))
 
 
 st.title('HOSPITAL DISEASES DIAGNOSTIC')
