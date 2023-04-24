@@ -244,5 +244,4 @@ if (selected == "Parkinsons Prediction"):
         
     st.success(parkinsons_diagnosis)
 
-st.title('UNIVERSITY OF SIALKOT')
 st.title('Developed By:    Muhammad Ishfaq')
